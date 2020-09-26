@@ -1,0 +1,72 @@
+/* CSS files add styling rules to your content */
+
+/* Phone Views (small) ***/
+body {
+    font-family: 'Merriweather', serif;
+    margin: 1em auto;
+    background-color: #D1A7A0;
+    text-align: center;
+    
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #AF125A;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #AF125A;
+    font-size: 1.5rem;
+}
+p{
+    color:#AF125A;
+}
+header, footer {
+    background-color: #D1A7A0;
+    padding: .5em;
+    text-align: center;
+    color: #AF125A;
+}
+
+footer p {
+    margin-bottom: 0.25em;
+}
+footer a {
+    color: #AF125A;
+}
+
+/*Tablet Views (medium)******/
+@media only screen and (min-width: 37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+/* Desktop Views (large) ******************/
+
+@media only screen and (min-width: 60em) {
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+}
