@@ -1,10 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<footer>
-
-</footer>
-
-</body>
-</html> 
+var string = document.lastModified;
