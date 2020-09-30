@@ -52,7 +52,7 @@ footer a {
 }
 
 /*Tablet Views (medium)******/
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 768px){
     main{
         grid-template-columns: 1fr 1fr;
     }
@@ -61,7 +61,7 @@ footer a {
 
 /* Desktop Views (large) ******************/
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 992px) {
 
     main{
         grid-template-columns: 1fr 1fr 1fr;
