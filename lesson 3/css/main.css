@@ -1,0 +1,75 @@
+/* CSS files add styling rules to your content */
+
+/* Phone Views (small) ***/
+main {
+    display:grid;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 1em auto;
+    background-color: #F5F5F5;
+    text-align: center;
+    max-width: 800px;
+}
+nav{
+    color: #080B0D;
+}
+header a:link {
+    color: #DA5F2F;
+}
+header a:visited {
+    color: #080B0D;}
+header li {
+    padding: 0 1.5em ;
+    display: inline;}
+img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+h1 {
+    font-family: 'Passion One', cursive;
+    color: #FFD333;
+    font-size: 3em;
+    
+}
+h2{
+    color: #DA5F2F;
+    font-size: 2.0rem;
+    
+}
+p{
+    color:#DA5F2F;
+}
+
+ul{
+    list-style: none;
+}
+
+footer p {
+    margin-bottom: 0.25em;
+    color: #080B0D;
+}
+
+/*Tablet Views (medium)******
+@media only screen and (min-width: 768px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+/* Desktop Views (large) ******************
+
+@media only screen and (min-width: 992px) {
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+}
