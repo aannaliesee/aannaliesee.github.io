@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
+
+body{
+    color: #DA5F2F;
+    background-color: #F5F5F5;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    
+}
+
+main{
+    padding: 1.0em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+}
+
+header {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background-color:#F5F5F5;
+    color: #DA5F2F;
+    padding: 1em; 
+}
+
+header img {
+    width: 50px;
+    padding: .5em;
+}
+
+.navigation {
+    display: flex;
+}
+.navigation li:first-child{
+    display: block;
+}
+
+
+nav li {
+list-style: none;
+text-emphasis: none;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: .70em;
+    background-color: #FFD333;
+}
+
+.navigation li{
+    display: none;
+}
+
+.button {
+    color: #F5F5F5;
+    font-size: 1.5em;
+
+}
+.responsive li {
+    display: block;
+}
+
+
+nav a:link {
+    color: #080B0D;
+}
+nav a:active {
+    color:s#DA5F2F;
+}
+
+nav a:visited {
+    color:#DA5F2F;
+}
+
+.title{
+    display: block;
+    background-color:#FFD333;
+    padding:.5em;
+    margin: .5em;
+    text-align: center;
+
+}
+
+footer {
+    font-weight: 700;
+    width: 100%;
+    padding: .5em;
+    background-color: #C0D6DF;
+    text-align: center;
+    font-size: .8em;
+}
+
