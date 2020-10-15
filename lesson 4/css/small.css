@@ -39,13 +39,12 @@ header img {
     display: block;
 }
 
-
 nav li {
 list-style: none;
 text-emphasis: none;
 }
 
-.navigation a {
+nav a {
     display: block;
     text-align: center;
     text-decoration: none;
