@@ -37,8 +37,8 @@ header img {
 }
 
 nav li {
-list-style: none;
-text-emphasis: none;
+    list-style: none;
+    text-emphasis: none;
 }
 
 nav a{
@@ -46,6 +46,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     padding: 16px;
+    margin-right: 22px;
     background-color: #FFD333;
 }
 
@@ -62,6 +63,9 @@ nav a{
     display: block;
 }
 
+nav a:hover {
+    background-color: #C0D6DF;
+}
 
 nav a:link {
     color: #080B0D;
