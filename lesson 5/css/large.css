@@ -11,6 +11,23 @@
         padding: 1em;
     }
 
+    #snowboard{
+        position: relative;
+        margin: 10px auto;
+        width: 100%;
+        height:auto;
+    }
+
+    #weathersummary{
+        position: absolute;
+        top: 400px;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        background-color: #C0D6DF;
+	    border: 1px solid #DA5F2F;
+    }
+    
     nav li:first-child {
         display: none;
     }

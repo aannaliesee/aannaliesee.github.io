@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
 
+#banner{
+    background-color:#DA5F2F;
+    color: #F5F5F5;
+    text-align:center;
+    font-size: large;
+}
+
 body{
     color: #DA5F2F;
     background-color: #F5F5F5;
@@ -32,21 +39,38 @@ header img {
     padding: .5em;
 }
 
+
+.active{
+    color: black;
+}
+
+nav{
+    display:block;
+    background-color: #FFD333;
+    max-width:100%;
+    
+}
+
+
+.navigation a:hover{
+    background-color:#C0D6DF;
+}
+
 .navigation li:first-child{
     display: block;
 }
 
 nav li {
-list-style: none;
-text-emphasis: none;
+    list-style: none;
+    text-emphasis: none;
 }
 
 nav a{
+    color:#DA5F2F;
     display: block;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
-    padding: 16px;
-    background-color: #FFD333;
+    padding: 12px;
 }
 
 .navigation li{
@@ -54,25 +78,27 @@ nav a{
 }
 
 .button {
-    color: #F5F5F5;
-    font-size: 1.5em;
+    color:black;
+    font-size: 1em;
+    text-align: right;
+    margin-right: 30px;
 
 }
 .responsive li {
     display: block;
 }
 
+#snowboard{
+position: relative;
+margin: 10px auto;
+  width: 100%;
+  max-height: 250px;
 
-nav a:link {
+}
+/*nav a:link {
     color: #080B0D;
-}
-nav a:active {
-    color:s#DA5F2F;
-}
+}*/
 
-nav a:visited {
-    color:#DA5F2F;
-}
 
 .title{
     display: block;
@@ -83,12 +109,42 @@ nav a:visited {
 
 }
 
-footer {
+#socials{
+    display:none;
+}
+
+#weathersummary{
+    padding: 1.5rem;
+    opacity: .8;
+    background-color: #C0D6DF;
+    border: 1px solid #DA5F2F;
+    
+}
+#forecast{
+    display: none;
+}
+
+#sky{
+    float:none;
+}
+footer{
+  display:block;
+  width:100%;
+  height:10%; 
+  /*bottom:0;
+  left:0;*/
+  background-color:#C0D6DF;
+  text-align:center;
+  
+}
+
+/*footer {
+    max-width:100%;
     font-weight: 700;
-    max-width: 100%;
-    padding: .5em;
+    padding: 0.5em;
     background-color: #C0D6DF;
     text-align: center;
     font-size: .8em;
-}
+}*/
+
 

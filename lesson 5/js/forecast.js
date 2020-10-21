@@ -33,3 +33,14 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("updated").textContent = fulldate;
+
+
+//Pancake Display Banner 
+
+const banner = document.getElementById('banner');
+if (d.getDay()==5){
+    banner.style.display = 'block';
+}
+else {
+    banner.style.display='none';
+}
