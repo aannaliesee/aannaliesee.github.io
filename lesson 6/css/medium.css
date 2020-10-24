@@ -1,4 +1,4 @@
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) {
    
 
     main {
@@ -44,7 +44,7 @@
     }
 
     #weathersummary{
-        visibility: visible;
+        display: block;
         position: absolute;
         top: 400px;
         left: 50px;
