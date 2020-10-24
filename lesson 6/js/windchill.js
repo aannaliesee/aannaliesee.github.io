@@ -4,7 +4,6 @@ function output(){
     let speed = parseFloat(document.getElementById("speed").innerHTML);
 
     let output = windChill(tempF, speed);
-    windChill(tempF,speed);
     document.getElementById("windChill").innerHTML = output;
 
 }
@@ -21,3 +20,5 @@ function windChill(tempF,speed) {
         return na;
     }
 }
+
+output()
