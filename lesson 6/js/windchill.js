@@ -4,7 +4,7 @@ function output(){
     let speed = parseFloat(document.getElementById("speed").innerHTML);
 
     let output = windChill(tempF, speed);
-    document.getElementById("windChill").innerHTML = output;
+    document.getElementById("windChill").innerHTML = output.toFixed(2);
 
 }
 

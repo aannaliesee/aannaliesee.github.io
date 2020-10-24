@@ -103,7 +103,7 @@ main picture.photo img {
     display: block;
     background-color:#FFD333;
     padding:.5em;
-    margin: .5em;
+    margin: 2em;
     text-align: center;
 }
 #article img{

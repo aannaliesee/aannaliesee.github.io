@@ -1,52 +1,53 @@
 @media only screen and (min-width: 993px) {
-
-    main {
-        max-width: 800px;
-        margin: auto;
-        font-size: 25px;
-    }
+/*---------HEADER-------*/
 
     header img {
         width: 100px;
         padding: 1em;
     }
+/*--------NAVIGATION------*/
+nav li:first-child {
+    display: none;
+}
 
-    #snowboard{
-        position: relative;
-        margin: 10px auto;
-        width: 100%;
-        height:auto;
+nav {
+    text-align: center;
+    font-size: 1.0em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 0.75em;
+    text-align: left;
+    text-decoration: none;
+}
+    
+/*---------MAIN--------*/
+    main {
+        max-width: 800px;
+        margin: auto;
+        font-size: 25px;
     }
-
+    #heroimg{
+        position:relative;
+    }
     #weathersummary{
+        display:block;
         position: absolute;
         top: 400px;
-        left: 350px;
+        left: 300px;
         padding: 1.5rem;
         box-shadow: 0 0 30px #111;
         opacity: .8;
         background-color: #C0D6DF;
-	    border: 1px solid #DA5F2F;
+        border: 1px solid #DA5F2F;
+        font-size: small;
     }
+    /*-----------FOOTER--------*/
     
-    nav li:first-child {
-        display: none;
-    }
-
-    nav {
-        text-align: center;
-        font-size: 1.0em;
-    }
-
-    nav li {
-        display: inline-block;
-    }
-
-    nav a {
-        display: block;
-        padding: 0.75em;
-        text-align: left;
-        text-decoration: none;
-    }
 
 }
