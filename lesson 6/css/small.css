@@ -124,17 +124,17 @@ main picture.photo img {
 }
 
 footer{
-    display:block;
+    /*display:block;*/
     width:100%;
-    height:10%; 
     /*bottom:0;
     left:0;*/
     background-color:#C0D6DF;
     text-align:center;
   }
-  #map{
+  #map img{
     height:150px;
   }
+ 
   
 
 /*#snowboard{
