@@ -42,13 +42,20 @@
         <div class="mainContent">   
 
         <h2>Preston Idaho</h2>
-
-        <img src="images/snowboard_weather.jpg" id="snowboard">
-       
+            <picture class=photo>
+                <source media="(max-width: 768px)" srcset="images/hero-400px.jpg">
+                <source media="(max-width: 992px)" srcset="images/hero-800px.jpg">
+                <source media="(max-width: 1600px)" srcset="images/hero-1200px.jpg">
+                <img src="images/hero.jpeg" alt="heroimg">
+            </picture>
         <section class="title" id="weathersummary"> 
-            Weather Summary <br>
-            Partly Cloudy 
-            59*
+            <span>Weather Summary </span><br>
+            <span>Partly Cloudy </span><br>
+            <span>Temp: 59*</span><br>
+            <span>Wind Chill: </span><br>
+            <span>Humidity:</span><br>
+            <span>Wind Speed: </span><br>
+
         </section>
         
         <div class="title" id="forecast">

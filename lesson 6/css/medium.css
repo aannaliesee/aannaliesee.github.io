@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 992px) {
    
 
     main {
@@ -47,6 +47,7 @@
         visibility: visible;
         position: absolute;
         top: 400px;
+        left: 50px;
         padding: 1.5rem;
         box-shadow: 0 0 30px #111;
         opacity: .8;

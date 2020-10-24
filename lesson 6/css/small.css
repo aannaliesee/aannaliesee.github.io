@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
 
 #banner{
@@ -39,6 +40,15 @@ header img {
     padding: .5em;
 }
 
+
+main picture.photo{
+    width: 50%;
+}
+
+main picture.photo img {
+    width: 100%;
+    margin: 0 0 0 2%;
+}
 
 .active{
     color: black;
@@ -144,5 +154,4 @@ footer{
     text-align: center;
     font-size: .8em;
 }*/
-
 
