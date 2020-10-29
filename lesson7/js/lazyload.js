@@ -36,6 +36,8 @@ else { //just load ALL images if not supported
     })
 }
 
+loadImages()
+
 
 /*
 const imagesToLoad = document.querySelectorAll("img[data-src]");
