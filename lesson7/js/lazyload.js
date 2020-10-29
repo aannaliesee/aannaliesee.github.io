@@ -26,7 +26,7 @@ if('IntersectionObserver' in window){
 
     //loop through each img on check status and load if necessary
     imagesToLoad.forEach((img) => {
-        imgObserver.observe(img);
+        observer.observe(img);
     });
 }
 
@@ -35,8 +35,6 @@ else { //just load ALL images if not supported
         loadImages(img);
     })
 }
-
-loadImages()
 
 
 /*
