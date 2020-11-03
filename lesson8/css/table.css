@@ -1,0 +1,44 @@
+
+table {
+font-family: 'Ubuntu', sans-serif;
+border-collapse: collapse;
+background-color:#e7ffed ;
+box-shadow:10px 10px 50px #628ca6;
+}
+
+thead #title{
+    font-size: 25px;
+}
+
+tfoot #title {
+    font-size: 11px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+  }
+
+#heading {
+    background-color: #628ca6;
+    color: white;
+}
+
+#title {
+    background-color: #7fb9c2;
+    text-align: center;
+}
+
+/*colors: 
+#e7f0ed
+#e7ffed (data rows)
+#628ca6
+#7fb9c2
+white 
+black */
+
