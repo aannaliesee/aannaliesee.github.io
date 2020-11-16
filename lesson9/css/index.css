@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
+
+/*------------SMALL-----------*/
+main section {
+    border: solid darkslateblue;
+    margin: .5rem;
+    font-family: 'Poppins', sans-serif;
+    color: ghostwhite;
+    
+}
+body {
+    text-align: center;
+    
+}
+
+main img {
+    box-shadow: 0 0 15px 5px dimgray;
+    width: 400px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+}
+
+/*------------MEDIUM-----------*/
+
+@media only screen and (min-width: 768px) {
+}
+
+/*------------LARGE-----------*/
+
+@media only screen and (min-width: 993px) {
+    
+}
