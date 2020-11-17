@@ -2,10 +2,9 @@
 
 /*------------SMALL-----------*/
 main section {
-    border: solid darkslateblue;
+    border: solid #C0D6DF;
     margin: .5rem;
     font-family: 'Poppins', sans-serif;
-    color: ghostwhite;
     
 }
 body {
@@ -14,22 +13,53 @@ body {
 }
 
 main img {
-    box-shadow: 0 0 15px 5px dimgray;
     width: 400px;
     margin-top: 20px;
 }
 
 h1 {
     font-family: 'Passion One', sans-serif;
+    font-size: 30px;
 }
 
 /*------------MEDIUM-----------*/
-
 @media only screen and (min-width: 768px) {
+    
+
+    .towns img {
+        display: block;
+    }
+    
+    .towns section:nth-child(odd) div { 
+        float:left; 
+   }
+
+   .towns section:nth-child(odd) img {
+         float:right;
+   }
+
+   .towns section:nth-child(even) div { 
+       float:right; 
+   }
+   
+   .towns section:nth-child(even) img {
+        float:left;
+   }
+     
 }
+
 
 /*------------LARGE-----------*/
 
 @media only screen and (min-width: 993px) {
-    
+
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        justify-content: center;    
+    }
+
+     main .towns{
+        margin-left: -210px;
+    }
 }
