@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
 
 /*------------SMALL-----------*/
-section {
+main section {
     background-color: steelblue;
     border: solid darkslateblue;
     margin: .5rem;
