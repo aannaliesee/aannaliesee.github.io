@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Home Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- import the webpage's stylesheet -->
+    <!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+     
+</head>
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/rsz_weather_logo copy.png" alt="logo">
+       <section class="heading"> <h1>Final Forecast</h1> 
+        <div class="motto">Latest weather for sport enthusiasts. </div>
+    </section>
+    </header>
+
+    <nav >    
+        <ul id="primaryNav" class="navigation">
+            <li><a href="#" class="button" onclick="toggleMenu()">&#9776;  </a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="preston.html"class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="mainContent">   
+
+        <h2>Preston Idaho</h2>
+
+        <img src="images/snowboard_weather.jpg" id="snowboard">
+       
+        <section class="title" id="weathersummary"> 
+            <h2>Weather Summary</h2>
+            <p>Currently: Partly Cloudy</p>
+            <p>High:<span id="high">43</span>°</p>
+            <p>Wind Chill:<span id="windChill"> </span></p>
+            <p>Humidity:10%</p>
+            <p>Wind Speed:<span id="speed">30</span></p>
+
+        </section>
+        <br>
+        <h2 id="forecastheading">Five Day Forecast</h2> 
+
+        <section class="fivedayforecast">
+            <div class="fivedays">
+                <span id="dayofweek1"></span> <span id="forecast1"></span> 
+                <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon1">
+            </div>
+            <div class="fivedays">
+                <span id="dayofweek2"></span> <span id="forecast2"></span> 
+                <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon2"> 
+            </div>
+            <div class="fivedays"><span id="dayofweek3"></span>  <span id="forecast3"></span>  
+                <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon3">
+            </div>
+            <div class="fivedays"><span id="dayofweek4"></span>  <span id="forecast4"></span> 
+                <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon4">
+            </div>
+            <div class="fivedays"><span id="dayofweek5"></span>  <span id="forecast5"></span> 
+                <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon5">
+            </div>
+
+        </section>
+
+        <br> 
+
+        <div class="title" id="article">
+            <h3>What's Hapenning Today in Preston </h3><br>
+            <img src="images/sky_weather.jpg" id="sky" height="200px" width="200px"> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolore mollitia assumenda voluptate quae eius tempore ea 
+            facere nesciunt aspernatur quo corrupti cum eligendi 
+            distinctio, dolorum numquam itaque ipsa, sequi eos.
+        </div>
+        
+    </div>
+    </main>
+        
+    <footer>
+        <div id="Contact">
+            <p> <strong>Contact Information </strong>
+            <br> info@finalforecast.com
+            <br> (208)987-1206 <br> </p>
+            <img src="images/preston_map.jpg" height="100px" id="map">
+            </div>
+            <div id="socials">
+                <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png">
+                <img src="images/iconfinder_1_Whatsapp2_colored_svg_5296520.png">
+                <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png">
+            </div>
+    &copy; 2020 | Annaliese Mits | Final Forecast
+    <br> <span id="updated"> </span> 
+    </footer>
+
+    <script src="js/forecast.js"></script>
+    <script src="js/fiveday.js"></script>
+    <script src="js/windchill.js"></script>
+
+</body>
+</html>

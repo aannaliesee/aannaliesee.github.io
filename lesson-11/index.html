@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Home Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- import the webpage's stylesheet -->
+    <!-- STYLE SHEETS -->
+<link href="/lesson9/css/homepage.css" rel="stylesheet">
+<link href="/lesson9/css/index.css" rel="stylesheet">
+
+
+
+     
+</head>
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/rsz_weather_logocopy.png" alt="logo">
+       <section class="heading"> <h1>Final Forecast</h1> 
+        <div class="motto">Latest weather for sport enthusiasts. </div>
+    </section>
+    </header>
+
+    <nav >    
+        <ul id="primaryNav" class="navigation">
+            <li><a href="#" class="button" onclick="toggleMenu()">&#9776;  </a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="preston.html"></a> </a>>Preston</a></li> <!--class="active"-->
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson9/prophets.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <picture class=photo>
+            <source media="(max-width: 768px)" srcset="images/hero-400px.jpg">
+            <source media="(max-width: 992px)" srcset="images/hero-800px.jpg">
+            <source media="(max-width: 1600px)" srcset="images/hero-1200px.jpg">
+            <img src="images/hero.jpeg" alt="heroimg" id="heroimg">
+        </picture>
+        
+        <div class="title" id="article">
+            <img src="images/sky_weather.jpg" alt="skyphoto" id="sky">
+            <h3>What's Happening Today in Preston </h3><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolore mollitia assumenda voluptate quae eius tempore ea 
+            facere nesciunt aspernatur quo corrupti cum eligendi 
+            distinctio, dolorum numquam itaque ipsa, sequi eos.
+        </div>
+          
+        <div class="towns">
+            <section>
+            <h1></h1>
+            <h2></h2>
+            <p></p>
+            <p></p>
+            <p></p>
+            </section>
+        </div>
+    
+    
+        
+    </main>
+        
+    <footer>
+        <div id="Contact">
+            <p> <strong>Contact Information </strong>
+            <br> info@finalforecast.com
+            <br> (208)987-1206 <br> </p>
+        </div>
+        <div id="map"> <img src="images/preston_map.jpg" alt="mapimage"></div>
+            <div id="socials">
+                <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="social1" id="social1">
+                <img src="images/iconfinder_1_Whatsapp2_colored_svg_5296520.png" alt="social2" id="social2">
+                <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="social3" id="social3">
+            </div>
+    &copy; 2020 | Annaliese Mits | Final Forecast
+    <br> <span id="updated"> </span> 
+    </footer>
+
+    <script src="/lesson9/js/homepage.js"></script>
+    <script src="/lesson9/js/index.js"></script>
+
+</body>
+</html>

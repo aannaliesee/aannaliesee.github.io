@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
+
+/*------------SMALL-----------*/
+main section {
+    border: solid #C0D6DF;
+    margin: .5rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    text-align: center;
+    
+}
+
+main img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 30px;
+}
+
+/*------------MEDIUM-----------*/
+@media only screen and (min-width: 768px) {
+    
+
+    .towns img {
+        display: block;
+    }
+    
+    .towns section:nth-child(odd) div { 
+        float:left; 
+   }
+
+   .towns section:nth-child(odd) img {
+         float:right;
+   }
+
+   .towns section:nth-child(even) div { 
+       float:right; 
+   }
+   
+   .towns section:nth-child(even) img {
+        float:left;
+   }
+     
+}
+
+
+/*------------LARGE-----------*/
+
+@media only screen and (min-width: 993px) {
+
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        justify-content: center;    
+    }
+
+}
