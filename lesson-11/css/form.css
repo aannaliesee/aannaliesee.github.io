@@ -1,0 +1,63 @@
+/*----------- FORM STYLING --------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #DA5F2F;
+    border-radius: 5px;
+    padding: .5rem;
+    text-align: left;    
+}
+form legend{
+    font-size: 1rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;    
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #C0D6DF;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #DA5F2F;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+#ratingvalue{
+    margin: 0 15px;
+}
+
+
+.submitBtn {
+    border: none;
+    background-color: #DA5F2F;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'poppins', sans-serif;
+    font-size: larger;
+
+}
+
+form label.top input:required {
+    border-left: 6px solid crimson ;
+}
+
+form label.top input:required:valid{
+    border-left: 6px solid limegreen ;
+}
+
+#textarea{
+    width: 96%;
+    max-width: 20rem;
+    height: 100px;
+}
