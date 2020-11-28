@@ -27,14 +27,4 @@ fetch(apiURL)
         
     })
   });
-    /*let day = 0;
-
-    const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
-    
-    forecast.forEach(i => {
-      const d= new Date(i.dt_txt);
-      document.getElementById('dayofweek${day+1}').textContent = weekdays[d.getDay()];
-      document.getElementById('forecast${day+1}').textContent = i.main.temp;
-      day++;
-
-    })*/
+  

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Poppins:wght@300&display=swap');
+
+#banner{
+    background-color:#DA5F2F;
+    color: #F5F5F5;
+    text-align:center;
+    font-size: large;
+}
+
+body{
+    color: #DA5F2F;
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    
+}
+
+main{
+    padding: 1.0em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+}
+
+header {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background-color:#F5F5F5;
+    color: #DA5F2F;
+    padding: 1em; 
+}
+
+header img {
+    width: 50px;
+    padding: .5em;
+}
+
+
+.active{
+    color: black;
+}
+
+nav{
+    display:block;
+    background-color: #FFD333;
+    max-width:100%;
+    
+}
+
+
+.navigation a:hover{
+    background-color:#C0D6DF;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+nav li {
+    list-style: none;
+    text-emphasis: none;
+}
+
+nav a{
+    color:#DA5F2F;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.navigation li{
+    display: none;
+}
+
+.button {
+    color:black;
+    font-size: 1em;
+    text-align: right;
+    margin-right: 30px;
+
+}
+.responsive li {
+    display: block;
+}
+
+#snowboard{
+position: relative;
+margin: 10px auto;
+  width: 100%;
+  max-height: 250px;
+
+}
+/*nav a:link {
+    color: #080B0D;
+}*/
+
+
+.title{
+    display: block;
+    background-color:#FFD333;
+    padding:.5em;
+    margin: .5em;
+    text-align: center;
+
+}
+
+#socials{
+    display:none;
+}
+
+#weathersummary{
+    padding: 1.5rem;
+    opacity: .8;
+    background-color: #C0D6DF;
+    border: 1px solid #DA5F2F;
+    
+}
+
+
+footer{
+  display:block;
+  width:100%;
+  height:10%; 
+  /*bottom:0;
+  left:0;*/
+  background-color:#C0D6DF;
+  text-align:center;
+  
+}
+#map img{
+    height:150px;
+  }
+
+
+
+
+@media only screen and (min-width: 768px) {
+   
+
+    main {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    
+
+    header h1 {
+        font-size: 3.0em;
+    }
+
+    header p {
+        font-size: 1.5em;
+    }
+    
+    #snowboard{
+        position: relative;
+        margin: 10px auto;
+          width: 100%;
+          max-height: 250px;
+        
+        }
+    
+    .navigation {
+        display: flex;
+        
+    }
+
+    .navigation li{
+        display:block;
+        flex: 1 1 100%;
+    }
+    nav {
+        font-size: 1.0em;
+        text-align: center;
+        padding: 14px 20px;
+        
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    #weathersummary{
+        visibility: visible;
+        position: absolute;
+        top: 380px;
+        padding: 1rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        background-color: #C0D6DF;
+        border: 1px solid #DA5F2F;
+        font-size: 15px;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    
+
+    /*footer {
+        font-size: 1em;
+        max-width: 600px;
+    }*/
+
+    #socials{
+        display:block;
+    }
+
+
+    footer{
+    width:100%;
+    height:20%; 
+    bottom:0;
+    left:0;
+    background-color:#C0D6DF;
+    text-align:center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    main {
+        max-width: 800px;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    header img {
+        width: 100px;
+        padding: 1em;
+    }
+
+    #snowboard{
+        position: relative;
+        margin: 10px auto;
+        width: 100%;
+        height:auto;
+    }
+
+    #weathersummary{
+        position: absolute;
+        top: 400px;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        background-color: #C0D6DF;
+	    border: 1px solid #DA5F2F;
+    }
+    
+    nav li:first-child {
+        display: none;
+    }
+
+    nav {
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.75em;
+        text-align: left;
+        text-decoration: none;
+    }
+
+}

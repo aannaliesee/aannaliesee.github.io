@@ -28,6 +28,7 @@ form label.top input, form label.top select{
 form label.sbs {
     display: block;
     padding: .75rem 0;
+    font-size: smaller;
 }
 #ratingvalue{
     margin: 0 15px;
@@ -44,7 +45,7 @@ form label.sbs {
     width: 96%;
     max-width: 20rem;
     font-family: 'poppins', sans-serif;
-    font-size: larger;
+    font-size: large;
 
 }
 

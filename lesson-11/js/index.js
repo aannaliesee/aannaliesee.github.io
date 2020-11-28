@@ -42,8 +42,6 @@ fetch(requestURL)
   
       document.querySelector('div.towns').appendChild(card);
 
-      //image.setAttribute('src', prophets[i].imageurl);
-      //image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
-
+  
     }
   });
