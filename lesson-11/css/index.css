@@ -37,6 +37,9 @@ nav{
 .navigation li:first-child{
     display: block;
 }
+nav .current {
+    background-color: white;
+}
 
 nav li {
     list-style: none;
@@ -103,9 +106,11 @@ main picture.photo img {
     background-color:#FFD333;
     padding:.5em;
     margin: 2em;
-    text-align: center;
+    
 }
-
+#article {
+    text-align: left;
+}
 #football {
     width: 300px;
 }

@@ -16,7 +16,7 @@
 <body>
     <div id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
     <header>
-        <img src="images/rsz_weather_logo copy.png" alt="logo">
+        <img src="/lesson-11/images/rsz_weather_logocopy.png" alt="logo">
        <section class="heading"> <h1>Final Forecast</h1> 
         <div class="motto">Latest weather for sport enthusiasts. </div>
     </section>
@@ -42,15 +42,14 @@
         <img src="images/snowboard_weather.jpg" id="snowboard" alt="heroimg">
        
         <section class="title" id="weathersummary"> 
-            <h2>Weather Summary</h2>
-            <p>Currently: Partly Cloudy</p>
-            <p>High:<span id="high">43</span>°</p>
-            <p>Wind Chill:<span id="windChill"> </span></p>
-            <p>Humidity:10%</p>
-            <p>Wind Speed:<span id="speed">30</span></p>
-
+            <div><h2>Weather Summary</h2></div>
+            <div>High:<span id="high"></span>°</div>
+            <div>Wind Chill:<span id="windChill"> </span></div>
+            <div>Humidity:</div>
+            <div>Wind Speed:<span id="speed"></span></div>
         </section>
-        <br>
+        
+
         <h2 id="forecastheading">Five Day Forecast</h2> 
 
         <section class="fivedayforecast">
@@ -74,10 +73,16 @@
 
         </section>
 
-        <br> 
+        <section>
+            <h2>Town Events</h2>
+        <div class="towns">
+            
+        </div>
+         </section>
+
 
         <div class="title" id="article">
-            <img src="images/sky_weather.jpg" id="sky" height="200px" width="200px">
+            <img src="/lesson-11/images/rsz_rodeo.jpg" id="sky" alt="rodeoscene" height="250px">
             <h3>Preston Rodeo </h3>
             Along with our three nights of rodeo, we have parades 
             and a great downtown sidewalk sale. The sidewalk sale brings 
@@ -96,21 +101,22 @@
             <p> <strong>Contact Information </strong>
             <br> info@finalforecast.com
             <br> (208)987-1206 <br> </p>
-            <img src="images/preston_map.jpg" height="100px" id="map">
+            <img src="images/preston_map.jpg" height="100px" id="map" alt="prestonmap">
             </div>
             <div id="socials">
-                <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png">
-                <img src="images/iconfinder_1_Whatsapp2_colored_svg_5296520.png">
-                <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png">
+                <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="instagramicon">
+                <img src="images/iconfinder_1_Whatsapp2_colored_svg_5296520.png" alt="whatsappicon">
+                <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebookicon">
             </div>
-    &copy; 2020 | Annaliese Mits | Final Forecast
+    &copy; 2020 | Annaliese Mits | Final Forecast | <a href="/lesson-11/home-wireframes.html">Wireframes</a>
     <br> <span id="updated"> </span> 
     </footer>
 
-    <script src="js/forecast.js"></script>
+    <script src="js/homepage.js"></script>
     <script src="js/fiveday.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="js/weatherapi.js"></script>
+    <script src="/lesson-11/js/weatherapi.js"></script>
+    <script src="js/events.js"></script>
    
 
 
