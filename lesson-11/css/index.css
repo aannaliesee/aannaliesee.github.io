@@ -22,9 +22,7 @@ header img {
     padding: .5em;
 }
 /*---------------------NAVIGATION--------------*/
-.active{
-    color: black;
-}
+ 
 
 nav{
     display:block;
@@ -32,7 +30,6 @@ nav{
     max-width:100%;
     
 }
-
 .navigation a:hover{
     background-color:#C0D6DF;
 }
@@ -53,6 +50,8 @@ nav a{
     text-decoration: none;
     padding: 12px;
 }
+
+
 
 .navigation li{
     display: none;
@@ -136,28 +135,6 @@ footer{
   #map img{
     height:150px;
   }
- 
-  
-
-/*#snowboard{
-position: relative;
-margin: 10px auto;
-  width: 100%;
-  max-height: 250px;
-
-}*/
-/*nav a:link {
-    color: #080B0D;
-}*/
-
-/*footer {
-    max-width:100%;
-    font-weight: 700;
-    padding: 0.5em;
-    background-color: #C0D6DF;
-    text-align: center;
-    font-size: .8em;
-}*/
 
 
 

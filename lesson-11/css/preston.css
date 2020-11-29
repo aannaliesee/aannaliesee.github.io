@@ -60,6 +60,9 @@ nav{
     display: block;
 }
 
+nav .current {
+    background-color: white;
+}
 nav li {
     list-style: none;
     text-emphasis: none;

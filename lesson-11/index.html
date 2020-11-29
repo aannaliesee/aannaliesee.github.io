@@ -9,6 +9,7 @@
     <!-- import the webpage's stylesheet -->
     <!-- STYLE SHEETS -->
 <link href="/lesson-11/css/index.css" rel="stylesheet">
+<link href="/lesson-11/css/normalize.css" rel="stylesheet">
 
 
 
@@ -24,14 +25,14 @@
     </header>
 
     <nav >    
-        <ul id="primaryNav" class="navigation">
+        <ul id="primaryNav" >
             <li><a href="#" class="button" onclick="toggleMenu()">&#9776;  </a></li>
-            <li><a href="/lesson-11/index.html">Home</a></li>
-            <li><a href="/lesson-11/preston.html">Preston</a></li> <!--class="active"-->
-            <li><a href="/lesson-11/sodasprings.html">Soda Springs</a></li>
-            <li><a href="/lesson-11/fishhaven.html">Fish Haven</a></li>
-            <li><a href="/lesson-11/stormcenter.html">Storm Center</a></li>
-            <li><a href="/lesson-11/prophets.html">Gallery</a></li>
+            <li class="current"><a href="/lesson-11/index.html">Home</a></li>
+            <li class="navigation"><a href="/lesson-11/preston.html">Preston</a></li> <!--class="active"-->
+            <li class="navigation"><a href="/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li class="navigation"><a href="/lesson-11/fishhaven.html">Fish Haven</a></li>
+            <li class="navigation"><a href="/lesson-11/stormcenter.html">Storm Center</a></li>
+            <li class="navigation"><a href="/lesson-11/prophets.html">Gallery</a></li>
         </ul>
     </nav>
 
@@ -91,8 +92,10 @@
     <br> <span id="updated"> </span> 
     </footer>
 
-   <script src="/lesson-11/js/homepage.js"></script>
+   
     <script src="/lesson-11/js/index.js"></script>
+    <script src="/lesson-11/js/forecast.js"></script>
+    <script src="js/windchill.js"></script>
 
 
 

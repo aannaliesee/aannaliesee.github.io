@@ -39,8 +39,8 @@ header img {
 }
 
 
-.active{
-    color: black;
+nav .current {
+    background-color: white;
 }
 
 nav{
