@@ -1,0 +1,49 @@
+
+#rentals {
+    display: block;
+    padding: 1rem;
+    margin: 2rem;
+    border:solid .3rem #0E7C7B;
+    border-radius: .5rem;
+}
+
+#rentals h2 {
+    text-align: center;
+}
+
+#rentals li {
+    list-style: none;
+}
+/*-------------------MEDIUM SIZE---------*/
+
+@media only screen and (min-width: 768px) {
+
+    
+   
+    /*-------------HEADER---------*/
+       
+    
+    /*---------NAVIGATION--------*/
+        
+        
+    /*----------MAIN--------*/
+   
+    
+        /*--------FOOTER--------*/
+    
+        
+    /*---------------LARGE SIZE--------------*/
+
+    @media only screen and (min-width: 993px) {
+        /*---------HEADER-------*/
+        
+           
+        /*--------NAVIGATION------*/
+       
+            
+        /*---------MAIN--------*/
+           
+
+            
+            /*-----------FOOTER--------*/
+            

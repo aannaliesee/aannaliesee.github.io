@@ -11,7 +11,7 @@ fetch(apiURL)
     
 
     let day = 0;
-    const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const weekdays = [' ', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     forecast.forEach(x => {
         const d = new Date(x.dt_txt);

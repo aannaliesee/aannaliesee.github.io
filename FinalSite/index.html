@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Sans+Pro:wght@200&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="/FinalSite/css/normalize.css" rel="stylesheet">
+    <link href="/FinalSite/css/style.css" rel="stylesheet">
+    <link href="/FinalSite/css/index.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="banner">Mention our website and get 20% off your reservation.</div>
+
+<header>
+        <section class="heading"><h1>Scoots Rentals</h1>
+        <div class="motto">Take an adventure through the magical island of Cozumel.</div>
+        </section>
+        <img src="/FinalSite/images/scootslogoresize.png" alt="logo" id="logo">
+
+</header>
+
+<nav>
+        <ul class="navigation">
+        <li><a href="#" class="button" onclick="toggleMenu()">&#9776; </a></li>
+        <li class="current"><a href="/FinalSite/index.html">Home</a></li>
+        <li><a href="/FinalSite/rentals.html">Rentals</a></li>
+        <li><a href="/FinalSite/reservations.html">Reservations</a></li>
+        <li><a href="/FinalSite/tours.html">Tours</a></li>
+        <li><a href="/FinalSite/contact.html">Contact Us</a></li>
+        </ul>
+</nav>
+
+<main>
+        <picture class=photo>
+            <source media="(max-width:768px)" srcset="images/tropical-400px.jpg">
+            <source media="(max-width:992px)" srcset="images/tropical-800px.jpg">
+            <source media="(max-width:1600px)" srcset="images/tropical-1200px.jpg">
+            <img src="/FinalSite/images/Rtropical.jpg" alt="banner" id="heroimg">
+        </picture>
+
+    <div>
+        <a href="/FinalSite/reservations.html">
+            <input type="submit" name="button" value="Make a Reservation" class="submitBtn">
+        </a>
+    </div>
+
+    <section id="currentweather"> 
+        <h2>Current Weather</h2>
+        <div>High:<span id="high"></span>°</div>
+        <div>Wind Chill:<span id="windChill"> </span></div>
+        <div>Humidity:</div>
+        <div>Wind Speed:<span id="speed"></span></div>
+    </section>
+
+    <div id="threeday">
+    <section class="threedayforecast">
+        <h2>Three Day Forecast</h2>
+        <div class="threedays">
+            <span id="dayofweek1"></span> <span id="forecast1"></span> 
+            <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon1">
+        </div>
+        <div class="threedays">
+            <span id="dayofweek2"></span> <span id="forecast2"></span> 
+            <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon2"> 
+        </div>
+        <div class="threedays">
+            <span id="dayofweek3"></span>  <span id="forecast3"></span>  
+            <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon3">
+        </div>
+
+    </section>
+    </div>
+
+    <div id="rentals">
+        <h2>Types of Rentals</h2>
+        <p>
+            <ul>
+            <h4>Honda Motor Scooters</h4>
+            <li>Honda Metropolitan (49cc) - 1 person</li>
+            <li>Honda Dio (110cc) - 2 person</li>
+            <li>Honda PCX150 (149cc) - 2 person</li>
+            <h4>ATV Side-by-Side</h4>
+            <li>Honda Pioneer 1000</li>
+            <h4>Jeep Rentals</h4>
+            <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+            <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+        </ul>
+        </p>
+        <img src="#" alt="summarypic">
+    </div>
+    
+    </main>
+
+    <footer>
+        <div>
+            
+            <p>Scoots Rental Company <br>
+                Cozumel, Mexico <br>
+                (123)456-7890<br>
+                info@scoots.com<br>
+            </p>
+        </div>
+
+        <div id="socials">
+            <img src="/FinalSite/images/facebook.png" alt="social1">
+            <img src="/FinalSite/images/instagram.png" alt="social2">
+            <img src="/FinalSite/images/whatsapp.png" alt="social3">
+        </div>
+
+        &copy; 2020 | Annaliese Mits | Scoots Rentals | <span id="updated"> </span> 
+    </footer>
+
+    <script src="/FinalSite/js/main.js"></script>
+    <script src="/FinalSite/js/index.js"></script>
+
+
+    
+</body>
+</html>

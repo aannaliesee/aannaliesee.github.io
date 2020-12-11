@@ -1,0 +1,68 @@
+.submitBtn {
+    text-align: center;
+    background-color: #F4E04D;
+    border: none;
+    border-radius: .5em;
+    padding: 1em;
+    margin-left: 125px;
+  
+}
+
+#currentweather{
+    display: block;
+    padding: 1rem;
+    margin: 2rem;
+    border:solid .3rem #0E7C7B;
+    border-radius: .5rem;
+}
+
+#currentweather h2 {
+    text-align: center;
+}
+#threeday{
+    display: block;
+    padding: 1rem;
+    margin: 2rem;
+    border:solid .3rem #0E7C7B;
+    border-radius: .5rem;
+}
+
+#threeday h2 {
+    text-align: center;
+}
+
+
+
+/*-------------------MEDIUM SIZE---------*/
+
+@media only screen and (min-width: 768px) {
+
+    
+   
+    /*-------------HEADER---------*/
+       
+    
+    /*---------NAVIGATION--------*/
+        
+        
+    /*----------MAIN--------*/
+   
+    
+        /*--------FOOTER--------*/
+    
+        
+    /*---------------LARGE SIZE--------------*/
+
+    @media only screen and (min-width: 993px) {
+        /*---------HEADER-------*/
+        
+           
+        /*--------NAVIGATION------*/
+       
+            
+        /*---------MAIN--------*/
+           
+
+            
+            /*-----------FOOTER--------*/
+            
