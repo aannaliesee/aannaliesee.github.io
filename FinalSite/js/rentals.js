@@ -1,6 +1,6 @@
-const requestURL = '';
+const requestURL = 'https://aannaliesee.github.io/FinalSite/data/rentals.json';
 
-fetch(json)
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })

@@ -15,12 +15,19 @@
 <body>
     <div id="banner">Mention our website and get 20% off your reservation.</div>
 
+    <div >
+        <span id="alert" class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an alert box.
+      </div>
+      <!--https://www.w3schools.com/howto/howto_js_alert.asp-->
+
 <header>
+
         <section class="heading"><h1>Scoots Rentals</h1>
         <div class="motto">Take an adventure through the magical island of Cozumel.</div>
         </section>
         <img src="/FinalSite/images/scootslogoresize.png" alt="logo" id="logo">
-
+    
 </header>
 
 <nav>
@@ -35,30 +42,33 @@
 </nav>
 
 <main>
-        <picture class=photo>
+
+    <div id="picture">
+        <picture class="photo">
             <source media="(max-width:768px)" srcset="images/tropical-400px.jpg">
             <source media="(max-width:992px)" srcset="images/tropical-800px.jpg">
             <source media="(max-width:1600px)" srcset="images/tropical-1200px.jpg">
             <img src="/FinalSite/images/Rtropical.jpg" alt="banner" id="heroimg">
         </picture>
+    </div>
 
-    <div>
+    <div class="reservation">
         <a href="/FinalSite/reservations.html">
-            <input type="submit" name="button" value="Make a Reservation" class="submitBtn">
+            <input type="submit" name="button" value="Make a Reservation" class="indexbutton">
         </a>
     </div>
 
     <section id="currentweather"> 
         <h2>Current Weather</h2>
-        <div>High:<span id="high"></span>°</div>
-        <div>Wind Chill:<span id="windChill"> </span></div>
-        <div>Humidity:</div>
-        <div>Wind Speed:<span id="speed"></span></div>
+        <div>Current Temp:<span id="currentTemp"></span>°</div>
+        <div>Current Condition:<span id="currentCond"> </span></div>
+        <div>Humidity:<span id="humidity"> </span></div>
+
     </section>
 
     <div id="threeday">
-    <section class="threedayforecast">
         <h2>Three Day Forecast</h2>
+    <section class="threedayforecast">
         <div class="threedays">
             <span id="dayofweek1"></span> <span id="forecast1"></span> 
             <img src="http://openweathermap.org/img/w/04d.png" alt="" id="icon1">
@@ -90,7 +100,9 @@
             <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
         </ul>
         </p>
-        <img src="#" alt="summarypic">
+    </div>
+    <div id="scooterbeach">
+        <img src="/FinalSite/images/Rscooterbeach.jpg" alt="scooteronbeach" >
     </div>
     
     </main>
@@ -106,9 +118,9 @@
         </div>
 
         <div id="socials">
-            <img src="/FinalSite/images/facebook.png" alt="social1">
-            <img src="/FinalSite/images/instagram.png" alt="social2">
-            <img src="/FinalSite/images/whatsapp.png" alt="social3">
+            <a href="https://www.facebook.com/"><img src="/FinalSite/images/facebook.png" alt="social1"></a>
+            <a href="https://www.instagram.com/"> <img src="/FinalSite/images/instagram.png" alt="social2"></a>
+            <a href="https://www.whatsapp.com/?lang=en"><img src="/FinalSite/images/whatsapp.png" alt="social3"></a> 
         </div>
 
         &copy; 2020 | Annaliese Mits | Scoots Rentals | <span id="updated"> </span> 
@@ -116,6 +128,8 @@
 
     <script src="/FinalSite/js/main.js"></script>
     <script src="/FinalSite/js/index.js"></script>
+    <script src="/FinalSite/js/weather.js"></script>
+
 
 
     

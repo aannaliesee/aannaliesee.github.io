@@ -24,7 +24,7 @@ fetch(apiURL)
         icon.setAttribute('alt', forecast[day].weather[0].description);
 
         day++
-        
-    })
-  });
+    
+      })
+    });
    

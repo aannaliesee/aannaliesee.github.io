@@ -7,12 +7,15 @@
     border-radius: .5rem;
 }
 
-#rentals h2 {
+#rentals h1 {
     text-align: center;
 }
 
 #rentals li {
     list-style: none;
+}
+#title {
+    text-align: center;
 }
 /*-------------------MEDIUM SIZE---------*/
 

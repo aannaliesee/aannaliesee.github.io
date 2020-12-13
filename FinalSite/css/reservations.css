@@ -62,7 +62,11 @@ form label.top input:required:valid{
 #information h3 {
     text-align: center;
 }
+/*-------------------NORMAL SMALL STYLING---------*/
 
+#title {
+    text-align: center;
+}
 
 
 /*-------------------MEDIUM SIZE---------*/

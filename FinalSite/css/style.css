@@ -69,10 +69,11 @@ h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
 }
 main {
-    margin: 40px;
+    margin: auto;
 }
-.photo{
-    margin-left: 8px;
+#picture{
+    width: 400px;
+    margin: auto;
 }
 
 
@@ -117,10 +118,11 @@ footer{
        
         
     /*----------MAIN--------*/
-    .photo{
-        margin-left: 41px;
+   
+    #picture{
+        width: 800px;
+        margin: auto;
     }
-    
         /*--------FOOTER--------*/
     
         
@@ -152,10 +154,10 @@ footer{
         }
             
         /*---------MAIN--------*/
-           
-        .photo{
-            margin-left: 65px;
+        #picture{
+            width: 1200px;
+            margin: auto;
         }
-            
+          
             /*-----------FOOTER--------*/
             

@@ -1,35 +1,116 @@
-.submitBtn {
-    text-align: center;
-    background-color: #F4E04D;
-    border: none;
-    border-radius: .5em;
-    padding: 1em;
-    margin-left: 125px;
-  
+ /*-------------HEADER---------*/
+       
+    
+    /*---------NAVIGATION--------*/
+        
+        
+    /*----------MAIN--------*/
+   
+    .reservation {
+        text-align: center;
+        background-color: #F4E04D;
+        border: none;
+        border-radius: .5em;
+        padding: 1em;
+        width: 200px;
+        margin: auto;
+        font-size: large;
+    }
+
+    .indexbutton {
+        background-color: #F4E04D;
+        border: none;
+    }
+    
+    #currentweather{
+        display: block;
+        padding: 1rem;
+        margin: 2rem;
+        border:solid .3rem #0E7C7B;
+        border-radius: .5rem;
+    }
+    
+    #currentweather h2 {
+        text-align: center;
+    }
+    #threeday{
+        display: block;
+        padding: 1rem;
+        margin: 2rem;
+        border:solid .3rem #0E7C7B;
+        border-radius: .5rem;
+    }
+    
+    #threeday h2 {
+        text-align: center;
+    }
+    
+    #rentals {
+        display: block;
+        padding: 1rem;
+        margin: 2rem;
+        border:solid .3rem #0E7C7B;
+        border-radius: .5rem;
+    }
+    #rentals li {
+        list-style: none;
+    }
+    #rentals h2 {
+        text-align: center;
+    }
+
+    #scooterbeach {
+        width: 400px;
+        margin: auto;
+        
+    }
+
+    /*------------Forecast Styling-----------*/
+
+.threedayforecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
 
-#currentweather{
+#dayofweek1 {
     display: block;
-    padding: 1rem;
-    margin: 2rem;
-    border:solid .3rem #0E7C7B;
-    border-radius: .5rem;
+    background-color:#587792;
+    padding: 8px;
+    text-align: center;
+    color: white;
 }
 
-#currentweather h2 {
-    text-align: center;
-}
-#threeday{
+#forecast1 {
     display: block;
-    padding: 1rem;
-    margin: 2rem;
-    border:solid .3rem #0E7C7B;
-    border-radius: .5rem;
 }
 
-#threeday h2 {
+
+#dayofweek2 {
+    display: block;
+    background-color:#587792;
+    padding: 8px;
     text-align: center;
+    color: white;
 }
+#forecast2 {
+    display: block;
+}
+#dayofweek3 {
+    display: block;
+    background-color:#587792;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+#forecast3 {
+    display: block;
+
+}
+
+
+
+        /*--------FOOTER--------*/
+     
 
 
 
