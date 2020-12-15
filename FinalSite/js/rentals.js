@@ -16,19 +16,33 @@ fetch(requestURL)
       let halfday = document.createElement('p');
       let fullday = document.createElement('p');
       
+      let image = document.createElement('img');
 
       type.textContent = rentals[i].type;
-      maxpersons.textContent = 'Max Persons: ' + rentals[i].maxpersons;
-      halfday.textContent = 'Half Day Price: ' + rentals[i].halfday;
-      fullday.textContent = 'Full Day Price: ' + rentals[i].fullday;
+      maxpersons.textContent = `Max Persons: ${rentals[i].maxpersons}`;
+      halfday.textContent = `Half Day Price: ${rentals[i].halfday}`;
+      fullday.textContent = `Full Day Price: ${rentals[i].fullday}`;
+
+      image.textContent =  rentals[i].imageURL;
 
 
       card.appendChild(type);
       card.appendChild(maxpersons);
       card.appendChild(halfday);
       card.appendChild(fullday);
+      card.appendChild(image);
+      
   
       document.querySelector('div.cards').appendChild(card);
+
+      image.setAttribute('src', rentals[i].imageURL);
+      image.setAttribute('alt', rentals[i].h2);
+
+      //card.appendChild(image);
+  
+     // document.querySelector('div.cards').appendChild(card);
+      //image.setAttribute('src', rentals[i].imageurl);
+      //image.setAttribute('alt', rentals[i].name);
 
     }
   });

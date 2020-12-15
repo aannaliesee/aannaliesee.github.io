@@ -3,6 +3,34 @@
     text-align: center;
 }
 
+#destinations p {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+#destinations h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.destimage{
+    width: 400px;
+    margin: auto;
+}
+
+#visit {
+    width: 400px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: larger;
+    display: block;
+    padding: 1rem;
+    border:solid .3rem #0E7C7B;
+    border-radius: .5rem;
+    text-align: center;
+}
+
 /*-------------------MEDIUM SIZE---------*/
 
 @media only screen and (min-width: 768px) {

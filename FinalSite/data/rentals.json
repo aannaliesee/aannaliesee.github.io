@@ -5,42 +5,42 @@
         "maxpersons": "1",
         "halfday": "$20",
         "fullday": "$30",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       },
   {
         "type": "Honda Dio Scooter",
         "maxpersons": "2",
         "halfday": "$30",
         "fullday": "$40",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       },
   {
         "type": "Honda PCX150 Scooter",
         "maxpersons": "2",
         "halfday": "$40",
         "fullday": "$50",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       },
   {
         "type": "Honda Pioneer ATV",
         "maxpersons": "4",
         "halfday": "$50",
         "fullday": "$70",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       },
   {
         "type": "Jeep Wrangler- 4 Door with A/C",
         "maxpersons": "5",
         "halfday": "$70",
         "fullday": "$100",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       },
   {
         "type": "Jeep Wrangler- 2 door",
         "maxpersons": "4",
         "halfday": "$60",
         "fullday": "$85",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "imageurl": ""
       }
   
     ]

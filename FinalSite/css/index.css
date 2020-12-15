@@ -15,6 +15,7 @@
         width: 200px;
         margin: auto;
         font-size: large;
+        margin-top: 20px;
     }
 
     .indexbutton {
@@ -127,7 +128,26 @@
         
         
     /*----------MAIN--------*/
-   
+    #currentweather{
+        display: inline-block;
+        padding: 1rem;
+        border:solid .3rem #0E7C7B;
+        border-radius: .5rem;
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #threeday{
+        display: inline-block;
+        padding: 1rem;
+        border:solid .3rem #0E7C7B;
+        border-radius: .5rem;
+        width: 300px;
+        margin: auto;
+        margin-left: 30px;
+    }
     
         /*--------FOOTER--------*/
     

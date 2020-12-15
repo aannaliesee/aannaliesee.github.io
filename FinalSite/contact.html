@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <meta name="description" content="Contact page for Scoots Rentals">
+    <meta name="keywords" content="scooters, jeeps, rentals, cozumel">
+    <meta name="author" content="Annaliese Mits">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link href="/FinalSite/css/normalize.css" rel="stylesheet">
     <link href="/FinalSite/css/style.css" rel="stylesheet">
+    <link href="/FinalSite/css/contact.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -44,25 +51,50 @@
 
     <form>
         <fieldset>
-            <legend>Contact Us</legend>
-            <label>Full Name<input type="text" name="name" required pattern="[A-z\s]{5,}" placeholder="Full Name"> </label>
-            <label>Phone Number<input type="tel" name="phone" required placeholder="+1(234) 123 5678"> </label>
-            <label>Email<input type="email" name="email" placeholder="someone@gmail.com"> </label>
+            <legend><h3>Contact Us</h3></legend>
+            <label class="top">Full Name<input type="text" name="name" required pattern="[A-z\s]{5,}" placeholder="Full Name"> </label>
+            <label class="top">Phone Number<input type="tel" name="phone" required placeholder="+1(234) 123 5678"> </label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"> </label>
             <div>Message:</div>
-            <label><textarea id="textarea" name="message"></textarea></label>
+            <label class="top"><textarea id="textarea" name="message"></textarea></label>
+
         </fieldset>
+        
     </form>
-    <div>
+
+    <div class="thanks">
         <a href="/FinalSite/thanks.html">
             <input type="submit" name="button" value="Send Message" class="submitBtn">
         </a>
     </div>
 
-    <p>Here are the two pickup/dropoff locations. You can choose either when reserving your vehicles.</p>
 
-        <div class="map"> <iframe SameSite=None Secure src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18746.724701600495!2d-86.97197117735351!3d20.494661748729865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa0f4136c45cfbe8!2sStingray%20Beach%20Cozumel!5e0!3m2!1sen!2sus!4v1607319301409!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
-        <div class="map"> <iframe SameSite=None Secure src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39898.24660988309!2d-86.95150974774018!3d20.535888530461463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5846a9c56ac7%3A0x8ab8d136e4473589!2sCozumel%20International%20Airport!5e0!3m2!1sen!2sus!4v1607320187999!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
-</main>
+    <div id="dropoff">
+    <p>There are two pickup/dropoff locations. You can choose either when reserving your vehicles.
+        You must pickup and dropoff at the same location.
+    </p>
+    </div>
+
+    <div>
+        <p class="location"> <strong>Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel  </strong><br>
+            phone: (345)567-8910<br>
+            email: scoots@cozumelferry.com<br>
+            Hours: 6am-10pm Mon-Sat<br>
+        </p>
+    </div>
+        <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19549.566136431542!2d-87.07807260928627!3d20.62146479372068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4339714b21af%3A0x7263228749e5ad85!2sUltramar%20Ferry%20Playa%20del%20Carmen!5e0!3m2!1sen!2sus!4v1607968122501!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+        
+        <div>
+            <p class="location"> <strong>Cozumel Cruise Terminal</strong><br>
+                phone: (345)567-5656<br>
+                email: scoots@terminal.com<br>
+                Hours: 5am-11pm Mon-Sun<br>
+            </p>
+        </div>
+        <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10537.763058421211!2d-86.98048982921514!3d20.475823811501655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cd70625421%3A0xb1974a1818657af2!2sCozumel%20Cruise%20Terminal!5e0!3m2!1sen!2sus!4v1607968311692!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+        
+    </div>
+    </main>
 
 <footer>
     <div>
@@ -78,7 +110,7 @@
         <a href="https://www.whatsapp.com/?lang=en"><img src="/FinalSite/images/whatsapp.png" alt="social3"></a> 
     </div>
     
-    &copy; 2020 | Annaliese Mits | Scoots Rentals | <span id="updated"> </span> 
+    &copy; 2020 | Scoots Rentals | <a href="/FinalSite/references.html">References</a> | <span id="updated"> </span> 
 </footer>
     
 <script src="/FinalSite/js/main.js"></script>

@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <meta name="description" content="Reservations page for Scoots Rentals">
+    <meta name="keywords" content="scooters, jeeps, rentals, cozumel">
+    <meta name="author" content="Annaliese Mits">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservations</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -61,15 +66,16 @@
 
         <form>
             <fieldset>
-                <legend>Rental Agreement</legend>
-                <label>Date of Rental<input type="date" name="date>"></label>
-                <label>Full Name<input type="text" name="name" required pattern="[A-z\s]{5,}" placeholder="Full Name"> </label>
-                <label>Phone Number<input type="tel" name="phone" required placeholder="+1(234) 123 5678"> </label>
-                <label>Email<input type="email" name="email" placeholder="someone@gmail.com"> </label>
-                <label>Home Country<input type="text" name="country"> </label>
-                <label>Cruise Line<input type="text" name="cruise"> </label>
+                <legend><h3>Rental Agreement</h3></legend>
 
-                <label>Type of Vehicle
+                <label class="top">Date of Rental<input type="date" name="date>"></label>
+                <label class="top">Full Name<input type="text" name="name" required pattern="[A-z\s]{5,}" placeholder="Full Name"> </label>
+                <label class="top">Phone Number<input type="tel" name="phone" required placeholder="+1(234) 123 5678"> </label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"> </label>
+                <label class="top">Home Country<input type="text" name="country" placeholder="Australia"> </label>
+                <label class="top">Cruise Line<input type="text" name="cruise" placeholder="Carnival Cruises"> </label>
+
+                <label class="top">Type of Vehicle
                     <select name="vehicletype">
                         <option value="">Please Select</option>
                         <option value="metro">Honda Metro Scooter</option>
@@ -82,26 +88,32 @@
                 </label>
 
                     <div>Do you have a current driver's license?</div>
-                    <label>
+                    <label class="sbs">
                     <input type="radio" name="license" value="yes">Yes
                     </label>
-                    <label>
+                    <label class="sbs">
                     <input type="radio" name="license" value="no">No
                     </label>
 
-                    <legend>Drop Off Location</legend>
-                    <div>If you are picking up from us, leave blank. Otherwise, tell us where you would like vehicles to be dropped off please.</div>
-                     <label><textarea id="textarea" name="dropoff"></textarea></label>
+                    <div>Drop Off Location</div>
+                    <label class="sbs">
+                        <input type="radio" name="dropoff" value="airport">Airport
+                        </label>
+                        <label class="sbs">
+                        <input type="radio" name="dropoff" value="stingraybeach">Stingray Beach
+                        </label>
 
-                    <legend> Additional Information</legend>
                     <div>Comments:</div>
                      <label><textarea id="textarea" name="comments"></textarea></label>
 
-                     <div><label>By typing your name here, you aknowledge that all of this information is correct and are committing to a rental agreement.<input type="text" name="signature" required pattern="[A-z\s]{5,}" placeholder="Signature"> </label>
+                     <div><label>By typing your name here, you aknowledge that all of this
+                          information is correct and are committing to a rental agreement.
+                          <input type="text" name="signature" required pattern="[A-z\s]{5,}" placeholder="Signature"> </label>
                      </div>
+
             </fieldset>
         </form>
-        <div>
+        <div class="rentalbutton">
             <a href="/FinalSite/thanks.html">
                 <input type="submit" name="button" value="Reserve my Rental" class="submitBtn">
             </a>
@@ -123,7 +135,7 @@
         <img src="/FinalSite/images/whatsapp.png" alt="social3">
     </div>
 
-    &copy; 2020 | Annaliese Mits | Scoots Rentals | <span id="updated"> </span> 
+    &copy; 2020 | Scoots Rentals | <a href="/FinalSite/references.html">References</a> | <span id="updated"> </span> 
 </footer>
     
 <script src="/FinalSite/js/main.js"></script>
