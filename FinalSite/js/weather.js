@@ -5,23 +5,11 @@ fetch(oneURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-
-    //document.getElementById("current") = jsObject.list[0].weather[0].main;
-    //const currentTemp = document.querySelector('#currentTemp');
-    //const humidity = document.querySelector('#humidity');
-    //const alert = document.querySelector('.closebtn');
-
-    //const currentCond = document.querySelector('#currentCond');
-
-
-
-    //currentTemp.innerHTML = jsObject.current.temp;
-
     document.getElementById('currentTemp').textContent = jsObject.current.temp;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
     document.getElementById('alert').textContent = jsObject.alerts;
 
-    document.getElementById('currentCond').textContent = jsObject.weather.description;
+    document.getElementById('currentCond').textContent = jsObject.current.weather.description;
 
 
   });

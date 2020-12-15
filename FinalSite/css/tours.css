@@ -44,7 +44,10 @@
         
         
     /*----------MAIN--------*/
-   
+   #destinations {
+       display: grid;
+       grid-template-columns: auto auto;
+   }
     
         /*--------FOOTER--------*/
     
@@ -63,4 +66,4 @@
 
             
             /*-----------FOOTER--------*/
-            
+        }}   

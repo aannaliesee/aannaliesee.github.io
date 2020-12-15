@@ -38,11 +38,6 @@ fetch(requestURL)
       image.setAttribute('src', rentals[i].image);
       image.setAttribute('alt', rentals[i].h2);
 
-      //card.appendChild(image);
-  
-     // document.querySelector('div.cards').appendChild(card);
-      //image.setAttribute('src', rentals[i].imageurl);
-      //image.setAttribute('alt', rentals[i].name);
 
     }
   });

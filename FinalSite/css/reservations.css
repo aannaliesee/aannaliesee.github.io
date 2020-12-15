@@ -90,11 +90,10 @@ form label.top input:required:valid{
 form fieldset {
     margin: .5rem;
 }
-#rentalbutton{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
 
+#palmtrees{
+    display: none;
+}
 
 /*-------------------MEDIUM SIZE---------*/
 
@@ -113,16 +112,36 @@ form fieldset {
     #grid{
         display: grid;
         grid-template-columns: auto auto;
+        grid-template-rows: 600px 500px 100px ;
         justify-items: center;
         
     }
     #information{
-        width: 400px;
+        width: 300px;
+        height: 550px;
+        grid-row: 1;
+        
     }
     form {
         width: 400px;
         padding: 0;
-        margin: 0;
+        grid-row: 1,2;
+    }
+
+    .rentalbutton {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row: 3;
+    }
+
+    #palmtrees{
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 2;
+        margin-top: 70px;
+        
+
     }
 
     
@@ -147,3 +166,4 @@ form fieldset {
 
 /*----------- FORM STYLING --------------*/
 
+}}

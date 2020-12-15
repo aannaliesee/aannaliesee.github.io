@@ -19,28 +19,28 @@
         "maxpersons": "2",
         "halfday": "$40",
         "fullday": "$50",
-        "image": ""
+        "image": "FinalSite/rentals_imgs/Honda PCX150 Scooter.jpeg"
       },
   {
         "type": "Honda Pioneer ATV",
         "maxpersons": "4",
         "halfday": "$50",
         "fullday": "$70",
-        "image": ""
+        "image": "FinalSite/rentals_imgs/Honda Pioneer ATV.jpeg"
       },
   {
         "type": "Jeep Wrangler- 4 Door with A/C",
         "maxpersons": "5",
         "halfday": "$70",
         "fullday": "$100",
-        "image": ""
+        "image": "FinalSite/rentals_imgs/Jeep Wrangler- 2 door.jpeg"
       },
   {
         "type": "Jeep Wrangler- 2 door",
         "maxpersons": "4",
         "halfday": "$60",
         "fullday": "$85",
-        "image": ""
+        "image": "FinalSite/rentals_imgs/Jeep Wrangler- 4 Door with A:C.jpeg"
       }
   
     ]
