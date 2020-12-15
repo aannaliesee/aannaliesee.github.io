@@ -65,6 +65,10 @@
         margin: auto;
         
     }
+    #rentals ul {
+        padding: 0;
+        margin: 0;
+    }
 
     /*------------Forecast Styling-----------*/
 
@@ -128,26 +132,23 @@
         
         
     /*----------MAIN--------*/
-    #currentweather{
-        display: inline-block;
-        padding: 1rem;
-        border:solid .3rem #0E7C7B;
-        border-radius: .5rem;
-        width: 300px;
-        text-align: center;
-        margin: auto;
-        margin-top: 50px;
+   
+    #grid {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
-    #threeday{
-        display: inline-block;
-        padding: 1rem;
-        border:solid .3rem #0E7C7B;
-        border-radius: .5rem;
-        width: 300px;
-        margin: auto;
-        margin-left: 30px;
+    #rentals {
+        text-align: center;
     }
+    #rentals h2 {
+        text-align: center;
+    }
+    #rentals ul {
+        padding: 0;
+        margin: 0;
+    }
+   
     
         /*--------FOOTER--------*/
     
@@ -163,7 +164,25 @@
             
         /*---------MAIN--------*/
            
+        #currentweather {
+            width: 300px;
+            text-align: center;
+            font-size: larger;
 
-            
+        }
+
+        #grid {
+            justify-items: center;
+        }
+        .threedayforecast {
+            width: 400px;
+        }
+
+        #rentals{
+            font-size: larger;
+        }
+        .indexbutton{
+            font-weight: 800;
+        }
             /*-----------FOOTER--------*/
             

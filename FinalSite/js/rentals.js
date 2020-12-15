@@ -23,7 +23,7 @@ fetch(requestURL)
       halfday.textContent = `Half Day Price: ${rentals[i].halfday}`;
       fullday.textContent = `Full Day Price: ${rentals[i].fullday}`;
 
-      image.textContent =  rentals[i].imageURL;
+      image.textContent =  rentals[i].image;
 
 
       card.appendChild(type);
@@ -35,7 +35,7 @@ fetch(requestURL)
   
       document.querySelector('div.cards').appendChild(card);
 
-      image.setAttribute('src', rentals[i].imageURL);
+      image.setAttribute('src', rentals[i].image);
       image.setAttribute('alt', rentals[i].h2);
 
       //card.appendChild(image);
