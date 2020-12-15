@@ -17,6 +17,9 @@
 #title {
     text-align: center;
 }
+.rentalpics{
+    text-align: center;
+}
 /*-------------------MEDIUM SIZE---------*/
 
 @media only screen and (min-width: 768px) {
