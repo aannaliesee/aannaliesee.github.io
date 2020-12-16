@@ -1,5 +1,5 @@
 #dropoff{
-    width: 400px;
+    width: 300px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -27,7 +27,8 @@ form fieldset {
     border-radius: .5rem;
     padding: .5rem;
     text-align: left;   
-    margin: 2rem; 
+    width: 400px;
+    margin: auto;
 }
 
 form label.top, form div {
