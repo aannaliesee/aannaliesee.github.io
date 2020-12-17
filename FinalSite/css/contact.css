@@ -19,6 +19,9 @@
     text-align: center;
     margin-top: 50px;
 }
+#pickup2 {
+    margin-bottom: 60px;
+}
 
 /*----------- FORM STYLING --------------*/
 
@@ -27,7 +30,7 @@ form fieldset {
     border-radius: .5rem;
     padding: .5rem;
     text-align: left;   
-    width: 400px;
+    width: 350px;
     margin: auto;
 }
 
@@ -44,7 +47,7 @@ form label.top input, form label.top select{
     padding: .75rem;
     
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 form label.top input:required {
@@ -56,8 +59,8 @@ form label.top input:required:valid{
 }
 
 #textarea{
-    width: 100%;
-    max-width: 20rem;
+    width: 90%;
+    max-width: 15rem;
     height: 100px;
 }
 

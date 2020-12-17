@@ -94,6 +94,9 @@ form fieldset {
 #palmtrees{
     display: none;
 }
+#space {
+    margin-bottom: 60px;
+}
 
 /*-------------------MEDIUM SIZE---------*/
 
@@ -132,6 +135,7 @@ form fieldset {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 3;
+        
     }
 
     #palmtrees{

@@ -84,8 +84,12 @@ footer{
     background-color:#587792;
     text-align:center;
     color: white;
+    
   }
 
+.scootsinfo {
+    padding: .5rem;
+}
 
 
 /*-------------------MEDIUM SIZE---------*/
